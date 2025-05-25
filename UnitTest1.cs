@@ -23,6 +23,8 @@ namespace CalculatorApp
 
         [Test]
         public void TestDivision() => Assert.AreEqual(2, _calculator.Division(4, 2));
+        [Test]
+        public void TestMultiplicationWithZero()=> Assert.AreEqual(0,_calculator.Multiply(2, 0));
 
         [Test]
         public void TestDivideByZero() =>
