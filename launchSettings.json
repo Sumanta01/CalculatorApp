@@ -1,0 +1,15 @@
+﻿{
+  "profiles": {
+    "CalculatorApp": {
+      "commandName": "Project",
+      "dotnetRunMessages": true
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": false,
+      "dockerOptions": {
+        "containerName": "calculatorapp"
+      }
+    }
+  }
+}
